@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#4ac2ff">
+	<meta name="theme-color" content="#4ac2ff">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" href="includes/font-awesome-4.4.0/css/font-awesome.min.css">
+	<link href="includes/tipuesearch/tipuesearch.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<script src="js/menu.js"></script>
+	<title>Hajtek.SE</title>
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.8";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="page-wrapper">
+		<div id="content-wrapper">
+			<header>
+				<div class="opaque-header-box"><img src="img/whitehajtek-small.png" id="logo" alt="Hajtek logo"></div>
+				<div id="search-box-top">
+					<form action="search.html" class="sbox">
+						<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+					</form>
+				</div>
+			</header>
+
+			<nav>
+				<ul class="topnav" id="myTopnav">
+					<li>
+						<a href="index.html">Start</a>
+					</li>
+					<li>
+						<a href="news.html">Nyheter</a>
+					</li>
+					<li>
+						<a href="forum.html">Forum</a>
+					</li>
+					<li class="dropdown">
+						<a href="servers.html">Servrar ￬</a>
+						<div class="dropdown-content">
+							<a href="teamspeak.html" class="drop">Teamspeak 3</a>
+							<a href="discord.html" class="drop">Discord</a>
+							<a href="minecraft.html" class="drop">Minecraft</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="streams.html">Streams ￬</a>
+						<div class="dropdown-content">
+							<a href="draapparn.html" class="drop">Draapparn</a>
+							<a href="missfaebulous.html" class="drop">MissFaebulous</a>
+							<a href="brocahontaz.html" class="drop">Brocahontaz</a>
+						</div>
+					</li>
+					<li>
+						<a href="team.html">Team</a>
+					</li>
+					<li>
+						<a href="about.html" id="thisPage">Om Hajtek.SE</a>
+						
+					</li>
+					<li class="icon">
+						<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+					</li>
+				<!--</ul>
+				<ul class="right">-->
+					<li class="right">
+						<a href="https://www.twitch.tv/hajtektv" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i><span class="hidden"> Twitch</a></a>
+					</li>
+					<li class="right">
+						<a href="https://twitter.com/HajtekSE" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span class="hidden"> Twitter</a></a>
+					</li>
+					<li class="right">
+						<a href="https://sv-se.facebook.com/hajtek.se" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span class="hidden"> Facebook</a></a>
+					</li>
+					<li>
+						<div id="search-box-menu">
+							<form action="search.html" class="sbox-menu">
+								<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+							</form>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<main>
+				<div id="left-column">
+					<div class="large-item">
+						<img src="img/test.png" class="main-pics" alt="Main pic">
+						<div class="large-item-content">
+							<h1>Ett svenskt gaming community</h1>
+							<p class="breadtext">
+								Hajtek är ett privatägt och -drivet community skapat av entusiaster, för entusiaster. Det står inget stort företag eller dylikt bakom vårt varumärke, och vårt mål är att det så ska förbli. Huvudfokus ligger på ett av våra största intressen, spel och teknik, och vi jobbar för att kunna tillhandahålla ett trivsamt community för alla er som delar dessa med oss.
+							</p>
+							<p class="normaltext">
+								
+							</p>
+
+							<a href="about.html">
+								<div class="panel-more">
+									LÄS MER
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="small-item">
+						<img src="img/servers.png" class="small-pics" alt="Server pic">
+						<div class="small-item-content">
+							<h2>Servrar</h2>
+							<p class="breadtext">
+								Vår digitala serverpark innehåller såväl Teamspeak- som spelservrar
+							</p>
+
+							<a href="servers.html">
+								<div class="panel-more">
+									LÄS MER
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="small-item">
+						<img src="img/streams.png" class="small-pics" alt="Stream pic">
+						<div class="small-item-content">
+							<h2>Streams</h2>
+							<p class="breadtext">
+								Hajtek's nystartade streamteam fokuserar på up-n-coming streamare som förtjänar fler tittare
+							</p>
+
+							<a href="streams.html">
+								<div class="panel-more">
+									LÄS MER
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div id="right-column">
+					<div class="right-column-item">
+						<div class="fb-page" data-href="https://www.facebook.com/hajtek.se" data-tabs="timeline" data-width="370" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hajtek.se" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hajtek.se">Hajtek</a></blockquote></div>
+					</div>
+					<div class="right-column-item">
+						<a class="twitter-timeline" data-lang="sv" href="https://twitter.com/HajtekSE">Tweets by HajtekSE</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				</div>
+			</main>
+			<footer>
+				<img src="img/whitehajteka-cut.png" class="footer-pic" alt="Hajtek">
+				<div class="footer-item">
+					<h3>Hajtek.SE</h3>
+					<p class="footertext">
+						Hajtek är ett privatägt och -drivet community skapat av entusiaster, för entusiaster. Det står inget stort företag eller dylikt bakom vårt varumärke, och vårt mål är att det så ska förbli.
+					</p>
+					<p class="terms">
+						<a href="">Användarvillkor &amp; regler</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="">Copyright</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="">Cookies</a>
+					</p>
+				</div>
+				<div class="footer-item">
+					<h3>Sociala medier</h3>
+					<div class="footertext">
+						<ul>
+							<li>
+								<a href="https://sv-se.facebook.com/hajtek.se" target="_blank">Facebook</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/HajtekSE" target="_blank">Twitter</a>
+							</li>
+							<li>
+								<a href="https://www.twitch.tv/hajtektv" target="_blank">Twitch</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-item">
+					<h3>Kontakt</h3>
+					<div class="footertext">
+						<ul>
+							<li>
+								<a href="">contact@hajtek.se</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-item">
+					<h3>Servrar</h3>
+					<div class="footertext">
+						<ul>
+							<li>
+								<a href="teamspeak.html">Teamspeak 3</a>
+							</li>
+							<li>
+								<a href="minecraft.html">Minecraft</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div id="copyright">
+			Copyright © 2015-2017 Hajtek.se  /  All rights reserved  /  Website developed by <a href="http://www.rooter.se" class="" target="_blank">Johan Andersson</a>
+		</div>
+	</div>
+</body>
+</html>
